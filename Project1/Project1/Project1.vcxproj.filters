@@ -9,14 +9,108 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="リソース ファイル">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="リソースファイル">
+      <UniqueIdentifier>{241d8e07-dde3-4faf-b268-a1e6d5a56c15}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="ObjEnemy.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="GameL\Audio.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\DirectXDevice.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\Draw2DTex_Source.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\DrawFont.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\DrawTexture.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\GameL_Main.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\HitBoxManager.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\MultiThread.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\SceneManager.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\SceneObjManager.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\SetWindow.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\UserData.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameL\WinInputs.cpp">
+      <Filter>リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjHero.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ObjEnemy.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\Audio.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DirectXDevice.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawFont.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\DrawTexture.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\HitBoxManager.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\MultiThread.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneManager.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SceneObjManager.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\SetWindow.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\UserData.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameL\WinInputs.h">
+      <Filter>リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMain.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjHero.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
